@@ -47,6 +47,23 @@ a:hover {
 .info-container {
 }
 
+.image-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
 .image {
-  width: 49%;
+  width: 100%;
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 850px) {
+  .image-container {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 549px) {
+  .image-container {
+    width: 98%
+  }
 }
