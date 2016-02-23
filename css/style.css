@@ -1,6 +1,17 @@
 
 body {
   font-size: 17px;
+  font-family:"Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: olivedrab;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .sidebar {
@@ -8,19 +19,29 @@ body {
   min-width: 120px;
 }
 
-.sidebar__category {
+.fixed-container {
+  position: fixed;
+}
+
+.link-container {
+  padding: 10px 0;
+}
+
+.about {
+  font-family: fantasy;
+  padding: 5px;
+}
+
+.category {
   font-weight: 700;
-  font-size: 19px;
-  padding: 5px;
 }
 
-.sidebar__subcategory {
-  margin-left: 10px;
+.subcategory {
+  margin-left: 3px;
 }
 
-.sidebar__about {
-  font-family: cursive;
-  padding: 5px;
+.social-media-link {
+  font-size: 15px;
 }
 
 .info-container {
