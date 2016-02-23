@@ -1,4 +1,31 @@
 
 body {
-  
+  font-size: 17px;
+}
+
+.sidebar {
+  padding: 15px;
+  min-width: 120px;
+}
+
+.sidebar__category {
+  font-weight: 700;
+  font-size: 19px;
+  padding: 5px;
+}
+
+.sidebar__subcategory {
+  margin-left: 10px;
+}
+
+.sidebar__about {
+  font-family: cursive;
+  padding: 5px;
+}
+
+.info-container {
+}
+
+.image {
+  width: 49%;
 }
