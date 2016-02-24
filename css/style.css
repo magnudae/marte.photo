@@ -36,6 +36,11 @@ a:hover {
   font-weight: 700;
 }
 
+.category:hover {
+  text-decoration: none;
+  cursor: default;
+}
+
 .subcategory {
   margin-left: 3px;
 }
@@ -65,5 +70,11 @@ a:hover {
 @media screen and (max-width: 549px) {
   .image-container {
     width: 98%
+  }
+
+  .sidebar {
+    min-width: 85px;
+    padding: 5px;
+    font-size: 15px;
   }
 }
