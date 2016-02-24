@@ -15,7 +15,7 @@ a:hover {
 }
 
 .sidebar {
-  padding: 15px;
+  padding: 5px 15px;
   min-width: 120px;
 }
 
@@ -89,7 +89,11 @@ a:hover {
 
   .sidebar {
     min-width: 90px;
-    padding: 5px;
+    padding: 0 5px;
     font-size: 15px;
+  }
+
+  .link-container {
+    padding: 5px 0;
   }
 }
