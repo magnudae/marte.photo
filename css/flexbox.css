@@ -10,8 +10,9 @@
   flex-direction: column;
 }
 
-.image-flex-container {
-  flex-wrap: wrap;
+.info-flex-container {
+  width: 100%;
+  flex-flow: column wrap;
   justify-content: space-around;
   align-items: center;
 }
