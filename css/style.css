@@ -7,7 +7,7 @@ body {
 
 a {
   text-decoration: none;
-  color: olivedrab;
+  color: black;
 }
 
 a:hover {
@@ -28,8 +28,6 @@ a:hover {
 }
 
 .about {
-  font-family: fantasy;
-  padding: 5px;
 }
 
 .category {
@@ -51,6 +49,14 @@ a:hover {
 
 .info-paragraph {
   width: 50%;
+}
+
+.info-paragraph a {
+  text-decoration: underline;
+}
+
+.info-paragraph a:hover {
+  text-decoration: none;
 }
 
 .image-container {
