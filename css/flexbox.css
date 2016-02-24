@@ -16,3 +16,9 @@
   justify-content: space-around;
   align-items: center;
 }
+
+@media screen and (max-width: 549px) {
+  .flex-align-left--mobile {
+      align-items: flex-start;
+  }
+}
