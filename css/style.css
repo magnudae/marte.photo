@@ -50,7 +50,7 @@ a:hover {
 }
 
 .info-paragraph {
-  width: 80%;
+  width: 50%;
 }
 
 .image-container {
@@ -67,10 +67,18 @@ a:hover {
   .image-container {
     width: 90%;
   }
+
+  .info-paragraph {
+    width: 70%;
+  }
 }
 @media screen and (max-width: 549px) {
   .image-container {
     width: 98%
+  }
+
+  .info-paragraph {
+    width: 90%;
   }
 
   .sidebar {
