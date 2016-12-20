@@ -2,4 +2,4 @@
 
 ###Under construction
 
-Homepage for the brilliant photpgrapical artist Marte
+Homepage for the brilliant photograpical artist Marte
